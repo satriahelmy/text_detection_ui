@@ -36,4 +36,4 @@ if uploaded_file is not None:
         
         # Konversi BGR ke RGB agar warnanya tampil benar di Streamlit
         image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-        st.image(image_rgb, caption="Hasil Deteksi Teks", use_column_width=True)
+        st.image(image_rgb, caption="Hasil Deteksi Teks", use_container_width=True)
